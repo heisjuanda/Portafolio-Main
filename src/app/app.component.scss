@@ -11,6 +11,7 @@ body {
   align-items: center;
   background: #000;
   background-size: cover;
+
 }
 body {
   color: #fff;
@@ -187,6 +188,10 @@ button:hover {
 //main mobile
 @media screen and (max-width: 485px) {
   .contenedor {
+    -webkit-animation: normal;
+    -webkit-box-flex: initial;
+    -webkit-border-image: auto;
+    -webkit-padding-start: initial;
     max-width: 100%;
     margin: 100px auto;
     padding: 10px;
@@ -377,6 +382,7 @@ button:hover {
         a {
           color: white;
           text-decoration: none;
+          
         }
       }
     }
